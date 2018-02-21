@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2018 The Wagerr developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,7 +73,6 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"listunspent", 0},
         {"listunspent", 1},
         {"listunspent", 2},
-        {"listunspent", 3},
         {"getblock", 1},
         {"getblockheader", 1},
         {"gettransaction", 1},
@@ -81,6 +81,8 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"createrawtransaction", 1},
         {"signrawtransaction", 1},
         {"signrawtransaction", 2},
+        {"signrawtransaction", 3},
+        {"signrawtransaction", 4},
         {"sendrawtransaction", 1},
         {"sendrawtransaction", 2},
         {"gettxout", 1},
@@ -129,6 +131,8 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"spendzerocoin", 1},
         {"spendzerocoin", 2},
         {"spendzerocoin", 3},
+        {"spendzerocoin", 4},
+        {"spendzerocoin", 5},
         {"importzerocoins", 0},
         {"exportzerocoins", 0},
         {"exportzerocoins", 1},
